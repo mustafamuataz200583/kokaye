@@ -1,0 +1,7 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "mock-supabase", "runtimeExecutable": "node", "runtimeArgs": ["test/mock-supabase.mjs"], "port": 54321 },
+    { "name": "kokaye-dev", "runtimeExecutable": "npm", "runtimeArgs": ["run", "dev"], "port": 3000 }
+  ]
+}
