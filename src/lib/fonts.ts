@@ -32,3 +32,11 @@ export const cormorant = localFont({
     { path: "../fonts/cormorant-garamond-latin-500-italic.woff2", weight: "500", style: "italic" },
   ],
 });
+
+export const thmanyahSerif = localFont({
+  variable: "--font-thmanyah-serif",
+  display: "swap",
+  src: [
+    { path: "../fonts/thmanyah-serif-display-700.woff2", weight: "700", style: "normal" },
+  ],
+});

@@ -21,7 +21,7 @@
   --color-danger: #9a3b2e;
 
   --font-sans: var(--font-thmanyah), "Segoe UI", system-ui, sans-serif;
-  --font-display: var(--font-tajarib), var(--font-thmanyah), system-ui, sans-serif;
+  --font-display: var(--font-thmanyah-serif), var(--font-thmanyah), system-ui, sans-serif;
   --font-latin: var(--font-cormorant), var(--font-tajarib), Georgia, serif;
 
   --ease-soft: cubic-bezier(0.22, 1, 0.36, 1);

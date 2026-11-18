@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { cormorant, tajarib, thmanyah } from "@/lib/fonts";
+import { cormorant, tajarib, thmanyah, thmanyahSerif } from "@/lib/fonts";
 import "./globals.css";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
@@ -27,7 +27,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="ar" dir="rtl" className={`${thmanyah.variable} ${tajarib.variable} ${cormorant.variable}`}>
+    <html lang="ar" dir="rtl" className={`${thmanyah.variable} ${thmanyahSerif.variable} ${tajarib.variable} ${cormorant.variable}`}>
       <body>{children}</body>
     </html>
   );
